@@ -356,3 +356,22 @@ div.portfolio-content {
     font-size: 1.3rem;
   }
 }
+
+@media (orientation: landscape) and (max-height: 570px) {
+  .motto {
+    font-size: 1.5rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 751px) and (max-height: 450px) {
+  .motto {
+    font-size: 1.2rem;
+    padding-top: 10vh;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 321px) {
+  .motto {
+    font-size: 1rem;
+  }
+}
